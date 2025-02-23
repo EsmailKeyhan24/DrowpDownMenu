@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropwmenu</title>
+    <link rel="stylesheet" href="stylesheet/normalize.css">
+    <link rel="stylesheet" href="stylesheet/master.css">
+    <link rel="stylesheet" href="stylesheet/Responsive.css">
+</head>
+<body>
+    <nav id="menu-top-small">
+        <!-- samll phone  -->
+        <div class="text-header">
+            <h1>header</h1>
+        </div>
+        <section class="search">
+            <input type="search" id="searchs">
+            <label for="searchs"><span>🍳</span></label>
+        </section>
+        <div class="toggle">
+            <section onclick="mytoggle()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </section>
+        </div>
+        <ul id="nav-small">
+            <li>
+                <div>
+                    <span onclick="toggleClose()">✖</span>
+                </div>
+            </li>
+            <li><a href="">home</a></li>
+            <li><a href="">Levle 1</a></li>
+            <li><a href="">pages</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Shortcodes</a></li>
+            <li><a href="">Onepage</a></li>
+        </ul>
+    </nav>
+    <nav id="menu-top-larg">
+        <section>
+            <div class="header-text">
+                <h1>header</h1>
+            </div>
+            <ul>
+                <li><a href="">home</a>
+                    <ul id="megamenu">
+                        <li>
+                            <a href="">business 1</a>
+                            <a href="">business 2</a>
+                            <a href="">business 3</a>
+                            <a href="">blogger 1</a>
+                            <a href="">blogger 2</a>
+                            <a href="">creative light</a>
+                            <a href="">creative dark</a>
+                            <a href="">personal Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="">vimeo video</a>
+                            <a href="">YouTube video</a>
+                            <a href="">html local video</a>
+                            <a href="">agency</a>
+                            <a href="">app showcase</a>
+                            <a href="">creative</a>
+                            <a href="">business</a>
+                            <a href="">education</a>
+                        </li>
+                        <li>
+                            <a href="">fitness & gym</a>
+                            <a href="">gardening</a>
+                            <a href="">hosting</a>
+                            <a href="">html video</a>
+                            <a href="">medical</a>
+                            <a href="">minimal Portfolio</a>
+                            <a href="">photogrophy</a>
+                            <a href="">product showcase</a>
+                        </li>
+                        <li>
+                            <a href="">restarunt</a>
+                            <a href="">resume & cv</a>
+                            <a href="">service landing</a>
+                            <a href="">slideshows</a>
+                            <a href="">spa & beauty</a>
+                            <a href="">startup</a>
+                            <a href="">vimeo video</a>
+                            <a href="">YouTube video</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">level 1</a>
+                    <ul class="megamenu">
+                        <li><a href="">header</a></li>
+                        <li><a href="">levle</a></li>
+                        <li><a href="">coming soon</a></li>
+                        <li><a href="">premium slider</a></li>
+                        <li><a href="">Shortcodes</a></li>
+                        <li><a href="">breadcumb</a></li>
+                        <li><a href="">footer</a></li>
+                        <li><a href="">icons</a></li>
+                        <li><a href="">buttons</a></li>
+                        <li><a href="">call to action</a></li>
+                        <li><a href="">google maps</a></li>
+                        <li><a href="">pie & skills</a></li>
+                        <li><a href="">ratings</a></li>
+                    </ul>
+                </li>
+                <li><a href="">pages</a>
+                    <ul id="megamenu">
+                        <li>
+                            <a href="">about us 1</a>
+                            <a href="">about us 2</a>
+                            <a href="">about us 3</a>
+                            <a href="">service layout 1</a>
+                            <a href="">service layout 2</a>
+                            <a href="">service layout 3</a>
+                            <a href="">404 layout 1</a>
+                            <a href="">404 layout 2</a>
+                            <a href="">404 layout 3</a>
+                        </li>
+                        <li>
+                            <a href="">coming soon layout 1</a>
+                            <a href="">coming soon layout 2</a>
+                            <a href="">coming soon layout 3</a>
+                            <a href="">coming soon layout 4</a>
+                            <a href="">coming soon layout 5</a>
+                            <a href="">500 error</a>
+                            <a href="">empty page</a>
+                            <a href="">FAQ</a>
+                            <a href="">Serach Result</a>
+                        </li>
+                        <li>
+                            <a href="">contact layout 1</a>
+                            <a href="">contact layout 2</a>
+                            <a href="">contact layout 3</a>
+                            <a href="">contact layout 4</a>
+                            <a href="">contact layout 5</a>
+                            <a href="">contact layout 6</a>
+                            <a href="">contact layout 7</a>
+                            <a href="">Subscribe Newsletter</a>
+                            <a href="">Under Maintenance</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">Portfolio</a>
+                    <ul id="megamenu">
+                        <li>
+                            <a href="">masonary no gutter</a>
+                            <a href="">2 column</a>
+                            <a href="">3 column</a>
+                            <a href="">4 column</a>
+                            <a href="">6 column</a>
+                            <a href="">full width</a>
+                        </li>
+                        <li>
+                            <a href="">gird</a>
+                            <a href="">2 column</a>
+                            <a href="">3 column</a>
+                            <a href="">4 column</a>
+                            <a href="">6 column</a>
+                            <a href="">full width</a>
+                        </li>
+                        <li>
+                            <a href="">masonary layout</a>
+                            <a href="">2 column</a>
+                            <a href="">3 column</a>
+                            <a href="">4 column</a>
+                            <a href="">6 column</a>
+                            <a href="">full width</a>
+                        </li>
+                        <li>
+                            <a href="">gird no gutter</a>
+                            <a href="">2 column</a>
+                            <a href="">3 column</a>
+                            <a href="">4 column</a>
+                            <a href="">6 column</a>
+                            <a href="">full width</a>
+                        </li>
+                        <li>
+                            <a href="">Portfolio details</a>
+                            <a href="">embed video</a>
+                            <a href="">masonary thumb</a>
+                            <a href="">singl thumb</a>
+                            <a href="">slider gallery</a>
+                            <a href="">YouTube video</a>
+                            <a href="">viemo video</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">blog</a>
+                    <ul id="megamenu">
+                        <li>
+                            <a href="">masonary layout</a>
+                            <a href="">2 column</a>
+                            <a href="">3 column</a>
+                            <a href="">4 column</a>
+                            <a href="">6 column</a>
+                            <a href="">full width</a>
+                        </li>
+                        <li>
+                            <a href="">gird layout</a>
+                            <a href="">2 column</a>
+                            <a href="">3 column</a>
+                            <a href="">4 column</a>
+                            <a href="">6 column</a>
+                            <a href="">ful width</a>
+                        </li>
+                        <li>
+                            <a href="">sidebar layout</a>
+                            <a href="">left sidebar gird</a>
+                            <a href="">left sidebar masonary</a>
+                            <a href="">right sidebar gird</a>
+                            <a href="">right sidebar masonary</a>
+                            <a href="">no sidebar</a>
+                            <a href="">both side sidebar</a>
+                        </li>
+                        <li>
+                            <a href="">blog details</a>
+                            <a href="">snign blog layout 1</a>
+                            <a href="">snign blog layout 2</a>
+                            <a href="">snign blog layout 3</a>
+                            <a href="">snign blog layout 4</a>
+                            <a href="">snign blog layout 5</a>
+                            <a href="">snign blog layout 6</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">Shortcodes</a></li>
+                <li><a href="">Onepage</a></li>
+            </ul>
+            <section class="serach">
+                <input type="search" onclick="search(this)">
+            </section>
+        </section>
+    </nav>
+</body>
+<script src="master.js"></script>
+</html>
